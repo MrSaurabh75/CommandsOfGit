@@ -7,4 +7,7 @@
 7.git push origin main ->Pushes the local changes to global (online) git hub
 8.git init ->To craete a new repo
 9.git remote add origin <-link-> ->
-10.
+10.git remote -v ->shows which remote is running
+11.git branch ->gives a current branch name
+12.git branch -M branchName ->to Rename a branch
+13.
