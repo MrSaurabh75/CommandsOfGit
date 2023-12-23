@@ -1,2 +1,7 @@
 1.cd -> Change directory
-2.
+2.ls ->shows list of files in current working directory
+3.ls -a ->shows all files in current working directory including hidden files
+4.git status ->shows status of files
+5.git add filename.extention ->add new or change files in your working directory to the Git staging araa
+6.git commit -m "type commit msg" ->Adds a commit (ss) to your file changes
+7.git push origin main ->Pushes the local changes to global (online) git hub
