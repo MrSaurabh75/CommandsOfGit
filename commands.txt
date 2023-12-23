@@ -1,3 +1,5 @@
+1st  make a repo on github then clone it in your local git on your desktop using command "git clone <-link of repo->" 
+
 1.cd -> Change directory // cd .. ->To go outside the directory
 2.ls ->shows list of files in current working directory
 3.ls -a ->shows all files in current working directory including hidden files
@@ -10,4 +12,22 @@
 10.git remote -v ->shows which remote is running
 11.git branch ->gives a current branch name
 12.git branch -M branchName ->to Rename a branch
-13.
+13.git checkout <-another branchName-> ->go to another branch
+14.git checkout -b <-new branch name-> ->to create a new branch.
+15.git branch -d <-branch name-> ->to delete a branch {NOTE :- You cannot delete a current branch on you are working 1st you have to another branch then you can delete that branch}
+16.git diff <-branch name-> -> give the another branch name to compare with it 
+17.git merge <-banch name-> -> merge two branches
+18. 
+    CASE 1: stage changes   
+            git reset <-file name->
+            git reset
+    CASE 2: commited change 
+            git reset HEAD~1
+    CASE 3: commited changes(for multiple undo commits)
+            git reset <-commit hash->
+            git reset --hard <-commit hash->
+19. git log ->you can see when you added a commit to you any banch and also see the hash of git
+20. FORK is rough copy of any project
+    1.simply search any official project on github
+    2.then click on fork option for copy that whole project
+    
